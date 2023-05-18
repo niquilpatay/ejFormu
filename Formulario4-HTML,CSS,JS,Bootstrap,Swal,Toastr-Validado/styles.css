@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+label{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.btn-primary{
+  font-weight: 700;
+}
+.container{
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+#registroForm{
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 768px) {
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-primary {
+    width: 100%;
+  }
+  input::placeholder{
+    text-align: center;
+  }
+  #registroForm{
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+}
+
